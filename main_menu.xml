@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/entp"
+        android:icon="@drawable/entertainment"
+        android:title="Entertainment"
+        />
+    <item
+        android:id="@+id/sportp"
+        android:icon="@drawable/sports"
+        android:title="Sports"
+        />
+    <item
+        android:id="@+id/politicsp"
+        android:icon="@drawable/politics"
+        android:title="Politics"
+        />
+    <item
+        android:id="@+id/contactp"
+        android:icon="@drawable/contact"
+        android:title="Contact Us"
+        />
+
+    <item
+        android:id="@+id/logoutp"
+        android:icon="@drawable/logout"
+        android:title="Log out"
+        />
+
+</group>
+</menu>
