@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CatogoriesActivity"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="News"
+            android:background="@color/red"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="5dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/profilepic"
+            android:id="@+id/profile_pic"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="something@gmail.com"
+            android:gravity="center"
+            android:id="@+id/currentemail"
+            android:padding="3dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:padding="7dp"
+            android:layout_margin="15dp"
+            android:background="@color/red"
+            >
+            <TextView
+                android:id="@+id/busi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Business"
+                android:textSize="40dp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:padding="12dp"
+                android:layout_margin="5dp"
+                android:clickable="true"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:padding="7dp"
+            android:layout_margin="15dp"
+            android:background="@color/red"
+            >
+            <TextView
+                android:id="@+id/ent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Entertainment"
+                android:textSize="40dp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:padding="12dp"
+                android:layout_margin="5dp"
+                android:clickable="true"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:padding="7dp"
+            android:layout_margin="15dp"
+            android:background="@color/red"
+            >
+            <TextView
+                android:id="@+id/general"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="General"
+                android:textSize="40dp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:padding="12dp"
+                android:layout_margin="5dp"
+                android:clickable="true"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:padding="7dp"
+            android:layout_margin="15dp"
+            android:background="@color/red"
+            >
+            <TextView
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Contact us"
+                android:textSize="40dp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:padding="12dp"
+                android:layout_margin="5dp"
+                android:clickable="true"
+                />
+
+        </LinearLayout>
+
+
+           <Button
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:backgroundTint="@color/red"
+               android:textColor="@color/white"
+               android:text="Log Out"
+               android:padding="5dp"
+               android:id="@+id/loginbtnn"
+               android:layout_marginTop="10dp"
+               />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
